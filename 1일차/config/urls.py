@@ -1,3 +1,5 @@
+
+# asafafasf
 from django.contrib import admin
 from django.http import Http404
 from django.shortcuts import render
@@ -25,3 +27,5 @@ urlpatterns = [
     path('users/<int:user_id>/', user_info, name='user_info'),
     path('admin/', admin.site.urls),
 ]
+
+# 21415
